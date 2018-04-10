@@ -1,0 +1,114 @@
+/*  Sptring 2018 Assignment: HTML/CSS
+ *  Author: John Williams
+ *  Class: CS 290
+ *  Sources cited: https://www.w3schools.com/html/html_forms.asp
+ *                 https://stackoverflow.com/questions/25555183/radio-button-not-inline-with-label
+ *                 https://www.w3schools.com/cssref/sel_nth-of-type.asp
+ */
+
+body {
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+table {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  font-weight: normal;
+}
+
+th, td {
+  width: 60px;
+  text-align: center;
+}
+
+/* Caption id */
+#caption {
+  text-align: center;
+  font-family: serif;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+/* Bold table header */
+#header-bold > th {
+  font-weight: bold;
+  background-color: white;
+}
+
+#italic {
+  font-style: italic;
+}
+
+ul {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 40%;
+  margin-right: auto;
+  list-style-position: inside;
+}
+
+.outer-content {
+  margin-top: 20px;
+  width: 75%;
+  margin-left: 0px;
+  border: 1px solid black;
+  height: 40px;
+  background-color: pink;
+}
+
+#inner-content {
+  background-color: powderblue;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+/* source: https://stackoverflow.com/questions/25555183/radio-button-not-inline-with-label */
+input:not([type="radio"]) {
+  font: 1em sans-serif;
+  width: 90%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin: 0 auto;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 5em;
+}
+
+tr:nth-of-type(even) {
+  background-color: #7FFFD4;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #FF7F50;
+}
+
+#footer {
+  background-color: white;
+}

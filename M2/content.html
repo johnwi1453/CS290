@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Reference the stylesheet in the header -->
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <h1>header</h1>
+
+  <!-- Caption within the <p> tags -->
+  <p id="caption">How many smarties of each color in various container sizes?</p>
+
+  <!-- 6x6 table -->
+  <table>
+    <tr id="header-bold">
+      <th></th>
+      <th>Red</th>
+      <th>Blue</th>
+      <th>Brown</th>
+      <th>Purple</th>
+      <th>Yellow</th>
+    </tr>
+    <tr>
+      <td id="italic">Wrapper</td>
+      <td>2</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td id="italic">Bag</td>
+      <td>4</td>
+      <td>3</td>
+      <td>4</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td id="italic">Sack</td>
+      <td>5</td>
+      <td>5</td>
+      <td>4</td>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td id="italic">King Size</td>
+      <td>10</td>
+      <td>15</td>
+      <td>8</td>
+      <td>7</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td id="italic">Family Size</td>
+      <td>25</td>
+      <td>35</td>
+      <td>20</td>
+      <td>25</td>
+      <td>35</td>
+    </tr>
+
+    <tfoot>
+      <tr id="footer">
+        <th colspan="2">Footer 1</th>
+        <th colspan="4">Footer 2</th>
+      </tr>
+    </tfoot>
+
+  </table>
+
+
+  <!-- List -->
+  <ul> Shopping List
+      <li>Eggs</li>
+      <li>Cabbage</li>
+      <li>Muffins</li>
+      <li>Hot Sauce</li>
+  </ul>
+
+  <!-- Div with inner div -->
+  <div class="outer-content">
+    <div id="inner-content">
+      Inner content
+    </div>
+  </div>
+
+  <!-- Two forms: get and post -->
+  <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+    <div>
+      <label for="name"> Text here:</label>
+      <input type="text" id="name" name="text_input">
+    </div>
+    <div>
+      <label for="number"> Number here:</label>
+      <input type="number" id="numerical_input" name="numerical_input">
+    </div>
+    <div>
+      <label for="password"> Password here:</label>
+      <input type="password" id="password" name="password_input">
+    </div>
+    <p>Select Candy:</p>
+    <input type="radio" name="candy" value="Snickers" checked> Snickers<br>
+    <input type="radio" name="candy" value="Skittles"> Skittles<br>
+    <input type="radio" name="candy" value="Mentos"> Mentos
+    <div class="button">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+  <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+    <div>
+      <label for="name"> Text here:</label>
+      <input type="text" id="name" name="text_input">
+    </div>
+    <div>
+      <label for="number"> Number here:</label>
+      <input type="number" id="numerical_input" name="numerical_input">
+    </div>
+    <div>
+      <label for="password"> Password here:</label>
+      <input type="password" id="password" name="password_input">
+    </div>
+    <p>Select Candy:</p>
+    <input type="radio" name="candy" value="Snickers" checked> Snickers<br>
+    <input type="radio" name="candy" value="Skittles"> Skittles<br>
+    <input type="radio" name="candy" value="Mentos"> Mentos
+    <div class="button">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+</body>
+</html>
